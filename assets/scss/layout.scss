@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    // text-align: center;
+    #header{
+        display: flex;
+        justify-content: space-between;
+        background-color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: indigo;
+        #auth{
+            display: flex;
+            
+        }
+    }
+    #layout-main{
+        height: 100%;
+    }
+    #footer{
+        display: flex;
+        background-color: grey;
+    }
+}
