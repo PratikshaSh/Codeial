@@ -1,15 +1,5 @@
 body {
-  margin: 0; }
-  body #header {
-    display: flex;
-    justify-content: space-between;
-    background-color: pink;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: indigo; }
-    body #header #auth {
-      display: flex; }
+  margin: 0;
+  /* text-align: center; */ }
   body #layout-main {
     height: 100%; }
-  body #footer {
-    display: flex;
-    background-color: grey; }
