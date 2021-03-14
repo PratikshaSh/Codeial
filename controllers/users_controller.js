@@ -1,6 +1,7 @@
 const { user } = require('../config/mongoose');
 const User = require('../models/user');
 
+//lets keep it same as before
 module.exports.profile = function(req, res) {
     User.findById(req.params.id, function(err, user){
         
